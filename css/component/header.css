@@ -34,8 +34,14 @@
   justify-content: center;
   align-items: center;
   margin:0 auto;
-  padding-top:70px;
+  padding-top:110px;
   z-index: 2;
+  font-family: 'PT Sans', sans-serif;
+  overflow:hidden;
+}
+
+.logo-name h2{
+  font-size: 48px;
 }
 
 .logo-name >img {
@@ -47,17 +53,20 @@
 .logo-name-info {
 
   padding : 20px;
+  animation-name: slideRight;
+  animation-duration: 3s;
+  animation-iteration-count: 1; /* Utilisez 1 si vous souhaitez que l'animation ne se répète qu'une fois */
+  animation-fill-mode: forwards;
 }
 
 .header-accroche{
   margin-top: 120px;
 }
 .header-accroche p span{
-
-  margin-left: 50px;
   padding:8px;
-  background-color: #AF9140;
+  background: linear-gradient(45deg,#AF9140 0%,#AF9140 100%);
   color:white;
   line-height: 1.6;
   font-size: 32px;
+  transition: all 0.3s;
 }

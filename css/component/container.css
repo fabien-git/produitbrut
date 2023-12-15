@@ -25,6 +25,14 @@
   .container {
     width: 700px;
   }
+  .cards {
+    flex-direction: column;
+
+  }
+  .title-line{
+    display:none;
+  }
+
 }
 
 @media (max-width: 720px) {

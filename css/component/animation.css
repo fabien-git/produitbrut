@@ -1,0 +1,10 @@
+@keyframes slideRight {
+  from {
+    opacity:0;
+    transform: translateX(-20%); /* Déplace l'élément à 100% vers la gauche */
+  }
+  to {
+    opacity:1;
+    transform: translateX(0); /* Ne déplace pas l'élément vers la droite (position initiale) */
+  }
+}

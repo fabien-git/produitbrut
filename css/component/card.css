@@ -7,6 +7,7 @@
 
 
 .card-projet{
+  min-width: 300px;
   border:0px solid rgba(255,255,255,0);
   background-color: white;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
@@ -48,6 +49,12 @@
   margin: 20px 0;
 }
 
+.card-projet-link{
+  margin-bottom: 24px;
+
+
+}
+
 .card-projet a{
   padding:8px 16px;
   background-color: #BEAF87;
@@ -58,6 +65,9 @@
 
 
 }
+
+
+
  /* carte controle ------------------------------*/
 
  .controle-slogan{
