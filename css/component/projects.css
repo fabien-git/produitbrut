@@ -15,7 +15,7 @@
 
 .projets::before{
   content: "";
-  background-image: url(css/images/logo-line.png);
+  background-image: url(../images/logo-line.png);
   background-repeat: no-repeat;
   opacity: 0.6;
   width: 800px;
