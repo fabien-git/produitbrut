@@ -1,0 +1,35 @@
+.projets{
+    background: linear-gradient(180deg, #BEAF87 0%, rgba(91, 72, 21, 0.85) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.projets > img{
+  position: absolute;
+  top : -100px;
+  left :0;
+  height: 600px;
+  width : 500px;
+  opacity: 0.4;
+}
+
+.projets::before{
+  content: "";
+  background-image: url(/css/images/logo-line.png);
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  right:-200px;
+}
+
+.projets::after{
+  content: "";
+  background-image: url(/css/images/logo-line2.png);
+  opacity: 0.6;
+  width: 600px;
+  height: 600px;
+  position: absolute;
+  left:0;
+}

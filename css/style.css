@@ -1,0 +1,32 @@
+
+/* import font google */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,900&display=swap');
+/* import css */
+@import url(component/button.css);
+@import url(component/title.css);
+@import url(component/card.css);
+@import url(component/profil.css);
+@import url(component/controle.css);
+@import url(component/projects.css);
+@import url(component/header.css);
+@import url(component/navbar.css);
+@import url(component/container.css);
+
+
+/* general */
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+h3{
+  font-weight: 300;
+}

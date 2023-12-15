@@ -1,0 +1,31 @@
+.button-controle{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.button-controle a{
+  text-align: center;
+  text-decoration: none;
+  color:grey;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.button-profil{
+  background-color: #BEAF87;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.button-profil a{
+  text-align: center;
+  text-decoration: none;
+  color:white;
+  font-size: 24px;
+  font-weight: 900;
+}

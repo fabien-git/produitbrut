@@ -1,0 +1,14 @@
+.container {
+  width:1200px;
+  margin: 0px auto;
+  position: relative;
+
+
+}
+
+.container-content{
+  display: flex;
+  justify-content: space-between;
+  gap:30px;
+  padding-bottom: 50px;
+}

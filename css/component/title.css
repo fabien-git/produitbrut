@@ -1,0 +1,41 @@
+.title{
+  display: flex;
+  align-items: center;
+  padding: 16px 0;;
+  margin-bottom: 48px;
+}
+
+.title img{
+  width: 80px;
+  height: 80px;
+  margin-right:8px;
+}
+
+.title h2{
+  margin:0;
+}
+.title h2 span{
+  background-color: white;
+  color: #BEAF87;
+  font-size: 24px;
+  font-weight: bolder;
+  padding: 10px 16px;
+  width:100%;
+}
+
+.title .title-line{
+  border-bottom : 10px solid white;
+  width: 400px;
+  height:100px;
+  margin : 0 10px;
+  opacity: 0.5;
+}
+
+.title h2 #grey{
+  color: #747474;
+}
+
+#gold{
+  background-color: #BEAF87;
+  color: white;
+}
