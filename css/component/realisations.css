@@ -1,0 +1,17 @@
+.realisations{
+  background-color: #D9D9D9;
+}
+
+
+.realisations .splide{
+
+  padding: 50px;
+  border: 2px solid white;
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.splide__slide img {
+  width: 80%;
+  height: auto;
+}

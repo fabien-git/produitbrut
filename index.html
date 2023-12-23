@@ -4,6 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <script>
+    document.addEventListener( 'DOMContentLoaded', function () {
+      new Splide( '#image-carousel' ).mount();
+    } );
+  </script>
+  <link rel="stylesheet" href="css/component/splide.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <title>Produit Brut</title>
@@ -81,6 +87,7 @@
 </section>
 <!-- Fin Section achat vente reno -->
 <section class="controle">
+  <img src="css/images/logoline2.png" alt="">
   <div class="container">
     <div class="title">
       <img src="css/images/logowhite.png">
@@ -96,8 +103,8 @@
         </div>
         <div class="cards-controle">
           <div class="card-controle">
-            <div class="card-controle-flex">
-              <div class="card-controle-img"></div>
+            <div class="card-profil-flex">
+              <div class="card-profil-img"></div>
               <div class="card-controle-text">
                 <h3>Etat des éléments extérieurs</h3>
                 <p>Façade<br>Toiture<br>Parties communes en immeuble<br>....</p>
@@ -106,8 +113,8 @@
             <div class="button-controle"><a href="#">Nos points de contrôles</a></div>
           </div>
           <div class="card-controle">
-          <div class="card-controle-flex">
-            <div class="card-controle-img"></div>
+          <div class="card-profil-flex">
+            <div class="card-profil-img"></div>
             <div class="card-controle-text">
               <h3>Etat des éléments extérieurs</h3>
               <p>Façade<br>Toiture<br>Parties communes en immeuble<br>....</p>
@@ -187,5 +194,35 @@
     </div>
   </div>
 </section>
+
+<section class="realisations">
+  <div class="container">
+    <div class="title">
+      <img src="css/images/logowhite.png">
+      <h2><span class="longer">NOS </span> <br> <span> REALISATIONS</span></h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide"><img src="css/images/image01.jpg" alt=""></li>
+          <li class="splide__slide"><img src="css/images/image02.jpg" alt=""></li>
+          <li class="splide__slide"><img src="css/images/image03.jpg" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script src="lib/splide.min.js"></script>
+<script>
+    var splide = new Splide( '.splide', {
+  type   : 'loop',
+  padding: '20%',
+} );
+    splide.mount();
+
+</script>
 </body>
 </html>

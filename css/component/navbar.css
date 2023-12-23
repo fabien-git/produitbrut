@@ -7,6 +7,10 @@
   justify-content: center;
   z-index: 3;
   padding-bottom: 50px;
+  animation-name: slideBottom;
+  animation-duration: 1s;
+  animation-iteration-count: 1; /* Utilisez 1 si vous souhaitez que l'animation ne se répète qu'une fois */
+  animation-fill-mode: forwards;
 
 }
 

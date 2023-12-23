@@ -8,3 +8,14 @@
     transform: translateX(0); /* Ne déplace pas l'élément vers la droite (position initiale) */
   }
 }
+
+@keyframes slideBottom {
+  from {
+
+    transform: translateY(-100%); /* Déplace l'élément à 100% vers la gauche */
+  }
+  to {
+
+    transform: translateY(0); /* Ne déplace pas l'élément vers la droite (position initiale) */
+  }
+}
