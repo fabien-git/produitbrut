@@ -11,7 +11,7 @@
   position: relative;
   background-position: center;
   background-size: cover;
-  filter: grayscale();
+  filter: grayscale() contrast(1.75);;
   transition: all 0.5s;
 }
 
@@ -24,13 +24,7 @@
 }
 
 .choix-carte.renov{
-  display: block;
-  position: relative;
   background-image: url('../images/RENOVATION.jpg');
-  background-position: center;
-  background-size: cover;
-  filter: grayscale();
-  transition: all 0.5s;
 }
 
 .choix-titre{
@@ -44,6 +38,7 @@
   margin-top: 30px;
   white-space: nowrap;
   transition: all 0.5s;
+  text-shadow: 0 0 10px rgba(0,0,0,1);
 }
 
 .choix-titre > img {
