@@ -219,7 +219,7 @@ padding :32px;
 max-width:  250px;
 font-size: 32px;
 font-weight: bold;
-z-index:2;
+
 }
 
 .card-controle-point.slogan h3{
@@ -240,10 +240,11 @@ color: #4B4B4B;
  .card-controle-point-img{
   width: 100px;
   position: relative;
-  background-image: url(../images/house.jpg);
   background-size: cover;
   background-position: center;
  }
+
+
 
  .card-controle-point-img > img{
  position: absolute;
