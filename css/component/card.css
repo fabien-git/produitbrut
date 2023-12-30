@@ -16,7 +16,7 @@
 }
 
 .choix-carte.buy{
-  background-image: url('../images/acaht.jpg');
+  background-image: url('../images/achat.jpg');
 }
 
 .choix-carte.sell{
@@ -205,12 +205,28 @@ transition:0.5s all 0.3s;
 
  /* carte controle ------------------------------*/
  .cards-controle-point{
-  display: flex;
-
+    display: flex;
   justify-content: space-around;
   margin-bottom: 50px;
   z-index: 2;
  }
+
+ .card-controle-point.slogan{
+  display: flex;
+justify-content: center;
+align-items: center;
+padding :32px;
+max-width:  250px;
+font-size: 32px;
+font-weight: bold;
+z-index:2;
+}
+
+.card-controle-point.slogan h3{
+font-size: 24px;
+font-weight: bolder;
+color: #4B4B4B;
+}
 
  .card-controle-point{
   display: flex;
@@ -218,6 +234,7 @@ transition:0.5s all 0.3s;
   background-color: white;
   border-radius: 4px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+  z-index: 2
  }
 
  .card-controle-point-img{
@@ -238,7 +255,7 @@ transition:0.5s all 0.3s;
 
  .card-controle-point-content{
   flex-grow: 2;
-  padding: 24px 72px;
+  padding: 24px 48px;
   text-align: center;
  }
  .card-controle-point-content h3{

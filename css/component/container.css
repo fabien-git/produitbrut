@@ -1,5 +1,5 @@
 .container {
-  width:1500px;
+  width:1300px;
   margin: 0px auto;
   position: relative;
 
@@ -12,6 +12,14 @@
   gap:30px;
   padding-bottom: 50px;
 }
+
+@media (max-width: 1300px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 1200px;
+  }
+}
+
 @media (max-width: 1200px) {
   /* Pour un écran < 960px, cette classe CSS s'applique */
   .container {
