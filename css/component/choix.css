@@ -1,0 +1,89 @@
+.choix {
+  background-color: #B4B4B4;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+
+.choix > img{
+  position: absolute;
+  width:300px;
+  height:450px;
+  right:0;
+  top:-100px;
+
+}
+
+.choix-argument{
+  margin: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+}
+
+.choix-argument-left {
+  width:500px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: hidden;
+}
+
+.choix-argument-left div{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D9D9D9;
+
+}
+
+.choix-argument-left div p{
+  padding: 48px 36px;
+  font-size: 24px;
+  font-weight: bolder;
+  color: Black;
+  margin-bottom: 16px;
+}
+
+.choix-argument-left a{
+  background-color: #535353;
+  padding: 24px 16px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  width:100%;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.choix-argument-left a:hover{
+  background-color: #BEAF87;
+}
+
+.choix-argument-right {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.choix-argument-right p:nth-child(1) {
+  background-color: #AF9140;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+  padding: 16px;
+}
+
+.choix-argument-right p:nth-child(2) {
+  background-color: white;
+  font-size: 16px;
+  font-weight: regular;
+  color: black;
+  padding: 48px;
+  flex-grow: 1;
+}

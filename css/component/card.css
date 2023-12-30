@@ -1,3 +1,137 @@
+
+
+ /* carte choix ------------------------------*/
+.choix-cartes {
+  display: flex;
+  overflow: hidden;
+
+}
+
+.choix-carte{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale();
+  transition: all 0.5s;
+}
+
+.choix-carte.buy{
+  background-image: url('../images/acaht.jpg');
+}
+
+.choix-carte.sell{
+  background-image: url('../images/VENTE.jpg');
+}
+
+.choix-carte.renov{
+  display: block;
+  position: relative;
+  background-image: url('../images/RENOVATION.jpg');
+  background-position: center;
+  background-size: cover;
+  filter: grayscale();
+  transition: all 0.5s;
+}
+
+.choix-titre{
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  white-space: nowrap;
+  transition: all 0.5s;
+}
+
+.choix-titre > img {
+  width :50px;
+  height: 50px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.choix-titre h3 {
+ font-size: 36px;
+ font-weight: bolder;
+ color: white;}
+
+.choix-content {
+  position: relative;
+  bottom:-400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 130px;
+  padding: 32px 24px;
+  padding-bottom: 60px;
+  overflow: hidden;
+  text-align: left;
+  transition: all 0.5s;
+}
+
+.choix-content p {
+  position: relative;
+left: -600px;
+transition:0.5s all 0.3s;
+}
+
+.choix-content p:nth-child(1) {
+  padding: 16px 0;
+}
+
+.choix-content p:nth-child(3) {
+  padding: 32px 0;
+}
+
+.choix-barre-color {
+  position: absolute;
+  opacity: 0;
+  background-color: #AF9140 ;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 30px;
+  transition: all 0.5s;
+}
+
+.choix-carte.buy:hover{
+  filter: none;
+}
+
+.choix-carte.sell:hover{
+  filter: none;
+}
+
+.choix-carte.renov:hover{
+  filter: none;
+}
+
+.choix-carte:hover .choix-titre{
+  top:10%;
+}
+
+.choix-carte:hover .choix-titre img{
+  opacity: 1;
+}
+
+.choix-carte:hover .choix-content{
+  bottom: 0px;
+}
+
+.choix-carte:hover .choix-content p{
+  left: 0;
+}
+
+
+.choix-carte:hover .choix-barre-color{
+  bottom: 0px;
+  opacity: 1;
+}
+
+ /* fin carte choix ------------------------------*/
+
+ /* carte controle------------------------------*/
+
 .cards{
   display:flex;
   gap:20px;
@@ -70,89 +204,64 @@
 
 
  /* carte controle ------------------------------*/
-
- .controle-slogan{
-  background-color: white;
+ .cards-controle-point{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width : 50%;
-  order: 2;
+
+  justify-content: space-around;
+  margin-bottom: 50px;
+  z-index: 2;
  }
 
- .controle-slogan h2{
-  color: grey;
-  font-size: 24px;
-  font-weight: bolder;
-  text-align: center;
-  padding:24px;
- }
-
- .cards-controle{
+ .card-controle-point{
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  width : 45%;
-  order: 1;
- }
-
-
- .card-controle {
-
-  border: 1px solid white;
- }
-
- .card-controle:hover {
+  justify-content: space-around;
   background-color: white;
-  border: 1px solid grey;
-  box-shadow: 0 10px 30px rgba(255,255,255,0.2);
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
  }
 
- .card-controle:hover .card-controle-img {
-  background-color: grey;
-  border: 6px solid rgb(182, 182, 182);
- }
-
- .card-controle:hover .card-controle-text {
-  color: grey;
-
- }
-
- .card-controle:hover .button-controle {
-  background-color: grey;
-  border: 1px solid grey;
- }
-
- .card-controle:hover .button-controle a{
-  color:white;
-}
-
-
- .card-controle-flex{
-   display: flex;
-   padding:16px;
- }
-
- .card-controle-img{
-  background-image: url(../images/controle-exterieur.png);
+ .card-controle-point-img{
+  width: 100px;
+  position: relative;
+  background-image: url(../images/house.jpg);
   background-size: cover;
   background-position: center;
-  width:200px;
-  height:130px;
-  border: 6px solid white;
-}
-.card-controle-text{
-  padding-left : 16px;
-  color : white;
-}
+ }
 
-.card-controle h3{
+ .card-controle-point-img > img{
+ position: absolute;
+ top: 40px;
+ right: -40px;
+ width: 80px;
+ height: 80px;
+ }
+
+ .card-controle-point-content{
+  flex-grow: 2;
+  padding: 24px 72px;
+  text-align: center;
+ }
+ .card-controle-point-content h3{
   font-size: 24px;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
+  font-weight: bolder;
+  margin-top: 40px;
+  margin-bottom: 24px;
+  color: #4B4B4B;
+ }
 
+ .card-controle-point-content p {
+  font-weight: regular;
+  margin-bottom: 24px;
+  color: #4B4B4B;
+ }
 
+ .card-controle-point-content a {
+  background-color: #BEAF87;
+  display: block;
+
+  color: white;
+  padding: 16px 24px;
+ }
 
 
  /* carte profil ------------------------------*/

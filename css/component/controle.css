@@ -1,5 +1,5 @@
-.controle{
-  background: linear-gradient(180deg, #AEAEAE 0%, #747474 100%);
+.controle-point{
+  background: linear-gradient(180deg, #BEAF87 0%, rgba(146, 114, 27, 0.64) 100%);
   position: relative;
   overflow: hidden;
 
@@ -11,5 +11,17 @@
   right:0;
   height: 600px;
   width : 500px;
+
+}
+
+.stripe{
+  position: absolute;
+  bottom: 50px;
+  background-image: url('/css/images/strip1.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+  min-width: 100%;
+  min-height: 100px;
   opacity: 0.4;
+  z-index: 1;
 }
