@@ -1,0 +1,91 @@
+.recommandations{
+  background-color:#BEAF87 ;
+  text-align: center;
+  padding: 32px 0;
+}
+
+.recommandations h3 strong{
+  color: black;
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.recommandations h4{
+  color: black;
+  padding: 16px 0;
+  font-size: 18px;
+  font-weight:300;
+}
+
+.button-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 16px 32px;
+  font-size: 24px;
+  text-decoration: none;
+  color: black;
+  background-color: #DEDEDE;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+
+}
+
+.button-recommandations {
+  position: relative;
+
+  z-index: 1;
+}
+
+.button-container::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateX(-110%);
+  background-color: #cc0909;
+  transition: transform 0.3s;
+  z-index: 1;
+}
+
+.button-container:hover::before {
+  transform: translateX(0%);
+}
+
+.button-container:hover .button-recommandations {
+  color: white;
+  z-index: 2;
+}
+
+
+
+
+
+.choix-argument-left .button::before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  transform: translateX(-100%);
+  background-color: #535353;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+.choix-argument-left .button:hover::before{
+  content:'';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  transform: translateX(0);
+  background-color:#AF9140;
+  z-index: 1;
+}
+
+.choix-argument-left a:hover a::before{
+  background-color: #BEAF87;
+}

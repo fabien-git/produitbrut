@@ -238,7 +238,7 @@ color: #4B4B4B;
  }
 
  .card-controle-point:hover{
-    animation: shake 0.4s linear;
+    animation: shake 0.8s linear;
  }
 
  .card-controle-point-img{
@@ -297,7 +297,7 @@ color: #4B4B4B;
   display:flex;
   gap:25px;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   flex-wrap: wrap;
  }
 
@@ -305,6 +305,7 @@ color: #4B4B4B;
   border:2px solid #BEAF87;
   background-color: white;
   width: 40%;
+  max-height: 300px;
  }
 
  .profil-card:hover{
