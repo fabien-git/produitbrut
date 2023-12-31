@@ -24,7 +24,7 @@ h3{
 }
 
 body {
-  background: linear-gradient(180deg, transparent 0%, rgba(190, 175, 135, 1) 100%), url("images/conseil.jpg");
+  background: linear-gradient(180deg, transparent 0%, rgba(190, 175, 135, 1) 100%), url("/images/conseil.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color:#BEAF87;
