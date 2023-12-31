@@ -16,15 +16,15 @@
 }
 
 .choix-carte.buy{
-  background-image: url('../images/achat.jpg');
+  background-image: url('../images/achat.webp');
 }
 
 .choix-carte.sell{
-  background-image: url('../images/VENTE.jpg');
+  background-image: url('../images/VENTE.webp');
 }
 
 .choix-carte.renov{
-  background-image: url('../images/RENOVATION.jpg');
+  background-image: url('../images/RENOVATION.webp');
 }
 
 .choix-titre{
