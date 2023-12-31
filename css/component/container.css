@@ -36,6 +36,15 @@
     order:1;
     max-width: 100%;
   }
+
+  .profil-cards{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .profil-card{
+    width: 100%;
+  }
 }
 
 
@@ -119,6 +128,18 @@
   .container {
     width: 500px;
   }
+
+  .navbar{
+    display:none;
+  }
+
+  .header::before{
+    display: none;
+  }
+
+  .header-accroche p span{
+    font-size: 24px;
+  }
   .choix-cartes{
     flex-direction: column;
     gap:24px;
@@ -150,8 +171,13 @@
 @media (max-width: 540px) {
   /* Pour un écran < 540px, cette classe CSS s'applique */
   .container {
-    width: 300px;
+    width: 350px;
   }
+  .navbar{
+    display:none;
+  }
+
+
   .choix-cartes{
     flex-direction: column;
     gap:24px;
@@ -174,6 +200,12 @@
   }
   .title-line{
     display:none;
+  }
+  .twoinputs{
+    flex-direction: column;
+  }
+  textarea{
+    width:100%;
   }
 
 }
