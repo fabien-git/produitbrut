@@ -25,6 +25,17 @@
   .container {
     width: 900px;
   }
+  .cards-controle-point{
+    flex-direction: column;
+    gap:24px;
+  }
+  .card-controle-point{
+    order:2;
+  }
+  .card-controle-point.slogan{
+    order:1;
+    max-width: 100%;
+  }
 }
 
 
@@ -33,13 +44,73 @@
   .container {
     width: 700px;
   }
-  .cards {
+  .choix-cartes{
     flex-direction: column;
-
+    gap:24px;
+  }
+  .choix-titre{
+    top:10%;
+  }
+  .choix-titre img{
+    opacity: 1;
+  }
+  .choix-content{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  .choix-content p{
+    transform: translateY(0px);
+  }
+  .choix-carte{
+    filter: none;
   }
   .title-line{
     display:none;
   }
+  .choix-argument{
+    display: flex;
+    flex-direction: column;
+    margin: 48px 0px;
+  }
+  .choix-argument-left{
+    display: none;
+  }
+  .cards-controle-point{
+    flex-direction: column;
+    gap:24px;
+  }
+  .card-controle-point{
+    order:2;
+  }
+  .card-controle-point.slogan{
+    order:1;
+    max-width: 100%;
+  }
+
+  .profil-cards{
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .profil-card{
+    width: 100%;
+  }
+
+  .container-formulaire{
+    flex-direction: column;
+  }
+
+  .societe{
+    width: 100%;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid grey;
+  }
+
+  .form-contact{
+    width: 100%;
+  }
+
+
 
 }
 
@@ -50,6 +121,29 @@
   }
   .choix-cartes{
     flex-direction: column;
+    gap:24px;
+  }
+  .choix-titre{
+    top:10%;
+  }
+  .choix-titre img{
+    opacity: 1;
+  }
+  .choix-content{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  .choix-content p{
+    transform: translateY(0px);
+  }
+  .choix-carte{
+    filter: none;
+  }
+  .title-line{
+    display:none;
+  }
+  .choix-argument-left{
+    display: none;
   }
 }
 
@@ -60,5 +154,26 @@
   }
   .choix-cartes{
     flex-direction: column;
+    gap:24px;
   }
+  .choix-titre{
+    top:10%;
+  }
+  .choix-titre img{
+    opacity: 1;
+  }
+  .choix-content{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  .choix-content p{
+    transform: translateY(0px);
+  }
+  .choix-carte{
+    filter: none;
+  }
+  .title-line{
+    display:none;
+  }
+
 }
