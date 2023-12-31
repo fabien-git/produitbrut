@@ -19,3 +19,21 @@
     transform: translateY(0); /* Ne déplace pas l'élément vers la droite (position initiale) */
   }
 }
+
+@keyframes shake {
+  0% {
+    transform: translateY(0px);
+  }
+  25%{
+    transform: translateY(8px);
+  }
+  50%{
+    transform: translateY(-8px);
+  }
+  75%{
+    transform: translateY(8px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}

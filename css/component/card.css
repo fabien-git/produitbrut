@@ -65,10 +65,12 @@
   transition: all 0.5s;
 }
 
+
 .choix-content p {
   position: relative;
 transform: translateX(-600px);
 transition:0.5s all 0.3s;
+
 }
 
 .choix-content p:nth-child(1) {
@@ -225,11 +227,18 @@ color: #4B4B4B;
 
  .card-controle-point{
   display: flex;
+  position: relative;
   justify-content: space-around;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 4px;
   box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
-  z-index: 2
+  z-index: 2;
+  transition:all 0.3s;
+  cursor: pointer;
+ }
+
+ .card-controle-point:hover{
+    animation: shake 0.4s linear;
  }
 
  .card-controle-point-img{
@@ -237,13 +246,14 @@ color: #4B4B4B;
   position: relative;
   background-size: cover;
   background-position: center;
+  border-radius: 4px;
  }
 
 
 
  .card-controle-point-img > img{
  position: absolute;
- top: 40px;
+ top: 20px;
  right: -40px;
  width: 80px;
  height: 80px;
@@ -271,9 +281,14 @@ color: #4B4B4B;
  .card-controle-point-content a {
   background-color: #BEAF87;
   display: block;
-
+  text-decoration: none;
   color: white;
   padding: 16px 24px;
+  transition: all 0.3s;
+ }
+
+ .card-controle-point-content a:hover {
+  background-color: #8a7f62;
  }
 
 
@@ -292,6 +307,10 @@ color: #4B4B4B;
   width: 40%;
  }
 
+ .profil-card:hover{
+  border:2px solid black;
+ }
+
  .card-profil-flex{
   display: flex;
   justify-content: space-between;
@@ -308,5 +327,5 @@ color: #4B4B4B;
 
  .card-profil-text{
   flex:1;
-  padding: 0 8px;
+  padding: 0 24px;
  }

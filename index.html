@@ -160,13 +160,13 @@
   <div class="cards-controle-point">
     <div class="card-controle-point">
       <div class="card-controle-point-img" style="background-image:url('css/images/house.webp')">
-        <img src="css/images/performance.png" alt="">
+        <img src="css/images/exterieur.png" alt="">
       </div>
       <div class="card-controle-point-content">
-        <h3>Etat & Performance des <br>installations</h3>
-        <p>Installation électrique<br>
-          Installation de gaz<br>
-          Système de ventilation<br>
+        <h3>Etat des éléments <br>extérieurs</h3>
+        <p>Façade<br>
+          Toiture<br>
+          partie communes en immeuble<br>
           ...
         </p>
         <a href="">Plus d'informations</a>
@@ -285,7 +285,104 @@ logements
   </div>
 </section>
 
+<section class ="recommandations">
+  <div class="container">
+    <h3><strong>VOUS AVEZ UN PROJET IMMOBILIER ? </strong></h3>
+    <h4>Vous souhaitez une visite technique d’aide à la décision d’achat ?</h4>
+    <div class="button"><a href="">CONTACTEZ-NOUS</a></div>
+  </div>
+</section>
 
+
+<section class="formulaire">
+  <div class="container">
+    <div class="container-formulaire">
+       <div class="societe">
+      <h2> <span>QUI SOMMES-<br>
+        NOUS?</span></h2>
+      <div class="societe-localisation">
+        <img src="css/images/benjamin-pouffier.png" alt="">
+        <div class="societe-localisation-adresse">
+                  <p>
+          <strong>Notre adresse :</strong></br></br>
+           Produit brut</br>
+           21110 Bretenière</br>
+           rue principale</br>
+        </p></div>
+
+      </div>
+      <div class="societe-presentation">
+        <p><span>Fort de 20 d’expérience dans le secteur du bâtiment, je vous
+           propose de vous faire gagner du temps et
+          d’apporter des solutions à vos clients grâce à un accompagnement
+          technique lors de vos visites de biens à
+          rénover.</span> </p><br><br><p>
+          <span>Notre engagement consiste à aider vos clients à se projeter
+             dans leurs projets en évaluant instantanément la
+            faisabilité technique et les coûts associés aux travaux</span</p>
+      </div>
+    </div>
+    <div class="form-contact">
+      <h2> <span>CONTACTEZ-</span> <br> <span>NOUS</span></h2>
+      <form action="" method="post">
+
+          <div class="twoinputs">
+            <div>
+              <label for="name">Votre nom&nbsp;:</label>
+              <input type="text" id="name" name="user_name" placeholder="Entrez votre nom.." />
+            </div>
+            <div>
+              <label for="surname">Votre prénom&nbsp;:</label>
+              <input type="text" id="surname" name="user_surname" placeholder="Entrez votre prénom.." />
+            </div>
+          </div>
+          <div class="twoinputs">
+            <div>
+              <label for="codepostal">Votre code postal&nbsp;:</label>
+              <input type="text" id="codepostal" name="user_codepostal" placeholder="Entrez votre code postal.." />
+            </div>
+            <div>
+              <label for="city">Votre ville&nbsp;:</label>
+              <input type="text" id="city" name="user_city" placeholder="Entrez votre ville.."/>
+            </div>
+          </div>
+          <div class="twoinputs">
+            <div>
+              <label for="mail">E-mail&nbsp;:</label>
+              <input type="email" id="mail" name="user_mail" placeholder="Entrez votre email.."/>
+            </div>
+            <div>
+              <label for="phone">Téléphone&nbsp;:</label>
+              <input type="email" id="phone" name="user_phone" placeholder="Entrez votre numéro.." />
+            </div>
+          </div>
+          <div>
+            <label for="bien-select">Votre type de bien&nbsp;:</label>
+            <select name="bien" id="bien-select">
+            <option value="">--Choisissez votre type de bien</option>
+            <option value="maison">Maison</option>
+            <option value="appartement">Appartement</option>
+          </select>
+          </div>
+          <div>
+            <label for="demande-select">Votre demande&nbsp;:</label>
+            <select name="bien" id="bien-select">
+            <option value="">--Quelle est l'objet de votre demande ? --</option>
+            <option value="achat">Maison</option>
+            <option value="vente">Appartement</option>
+            <option value="rénovation">Rénovation</option>
+          </select>
+          </div>
+          <div>
+            <label for="msg">Message&nbsp;:</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+        </ul>
+      </form>
+    </div></div>
+
+  </div>
+</section>
 <script src="lib/splide.min.js"></script>
 <script>
     var splide = new Splide( '.splide', {
