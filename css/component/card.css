@@ -308,10 +308,12 @@ color: #4B4B4B;
  }
 
  .profil-card{
+  order : 2;
+  position: relative;
   border:2px solid #BEAF87;
   background-color: white;
   width: 40%;
-  max-height: 300px;
+  min-height: 280px;
  }
 
  .profil-card:hover{
@@ -319,10 +321,39 @@ color: #4B4B4B;
  }
 
  .card-profil-flex{
+
   display: flex;
   justify-content: space-between;
   padding :16px;
+  flex-grow: 1;
  }
+
+
+ .profil-card.slogan{
+  order : 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:2px solid transparent;
+  background-color:  #BEAF87;
+  width: 40%;
+  min-height: 280px;
+ }
+ .profil-card.slogan p{
+  width: 100%;
+  height: 100%;
+  margin: 0; /* Assurez-vous qu'il n'y a pas de marges pour éviter tout débordement */
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+ }
+
+
+
+
+
 
  .card-profil-img{
   border:2px solid #BEAF87;

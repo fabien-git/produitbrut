@@ -15,6 +15,10 @@
 }
 
 .button-profil{
+  position: absolute;
+  bottom:0px;
+  left:0;
+  min-width: 100%;
   background-color: #BEAF87;
   display: flex;
   justify-content: center;
