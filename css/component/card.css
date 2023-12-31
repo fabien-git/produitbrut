@@ -337,7 +337,7 @@ color: #4B4B4B;
   align-items: center;
   border:2px solid transparent;
   background-color:  #BEAF87;
-  width: 40%;
+  max-width: 100%;
   min-height: 280px;
  }
  .profil-card.slogan p{
