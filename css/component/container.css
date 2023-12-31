@@ -113,6 +113,7 @@
     width: 100%;
     background-color: rgba(255,255,255,0.1);
     border: 1px solid grey;
+    padding: 0;
   }
 
   .form-contact{
@@ -204,7 +205,13 @@
   .twoinputs{
     flex-direction: column;
   }
+  .form-contact{
+    padding:0
+  }
   textarea{
+    width:80%!important;
+  }
+  #demande-select{
     width:100%;
   }
 
