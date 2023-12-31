@@ -1,0 +1,31 @@
+@import url(component/navbar.css);
+@import url(component/conseil.css);
+@import url(component/container.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,900&display=swap');
+
+
+/* general */
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+h3{
+  font-weight: 300;
+}
+
+body {
+  background: linear-gradient(180deg, transparent 0%, rgba(190, 175, 135, 1) 100%), url("/css/images/conseil.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#BEAF87;
+}
