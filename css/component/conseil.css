@@ -47,8 +47,8 @@ margin-bottom: 8px;
  background-color: #BEAF87!important;
 }
 
-.displaynone{
-  display: none;
+.display{
+  display: block!important;
 }
 
 .red{
@@ -72,6 +72,14 @@ margin-bottom: 8px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
 
 }
+
+.conseil-descriptif > div{
+  display: none;
+
+}
+
+
+
 .inner-border{
   border : 3px dashed white;
   padding: 16px;

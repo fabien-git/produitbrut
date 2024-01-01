@@ -23,7 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0;
+  padding: 0;
 }
 
 .button-profil a{
@@ -32,4 +32,6 @@
   color:white;
   font-size: 24px;
   font-weight: 900;
+  width:100%;
+  padding: 10px 0;
 }
