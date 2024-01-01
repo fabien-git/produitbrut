@@ -134,6 +134,10 @@
     display:none;
   }
 
+  .hamburger{
+    display:block;
+  }
+
   .header::before{
     display: none;
   }

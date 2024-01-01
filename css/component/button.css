@@ -35,3 +35,20 @@
   width:100%;
   padding: 10px 0;
 }
+
+.hamburger{
+  display: none;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+    z-index: 5;
+  background-color: #AF9140;
+  opacity: 0.8;
+}
+
+.hamburger .fa-solid.fa-bars{
+  font-size: 40px;
+  padding: 8px;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 0px 30px rgba(0, 0, 0, 0.7);
+}
