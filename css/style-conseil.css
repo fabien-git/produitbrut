@@ -29,3 +29,37 @@ body {
   background-repeat: no-repeat;
   background-color:#BEAF87;
 }
+
+@media (max-width: 1200px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .conseil-img{
+    display: none;
+  }
+  .conseil-onglet{
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+
+  .conseil-deeper-img{
+    display: none;
+  }
+
+  .conseil-deeper-text{
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .conseil-onglet ul {
+    flex-direction: column;
+  }
+
+  .conseil-deeper-avantages .barre {
+    display: none;
+  }
+
+}
