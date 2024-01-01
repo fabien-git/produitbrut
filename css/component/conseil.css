@@ -12,7 +12,7 @@
 
 }
 
-.conseil-onglet ul {
+.conseil-onglet > ul {
   display: flex;
   justify-content: space-between;
 background: white;
@@ -20,7 +20,7 @@ gap:8px;
 margin-bottom: 8px;
 }
 
-.conseil-onglet ul li {
+.conseil-onglet > ul li {
   display: flex;
   background-color: #D9D9D9;
   flex:1;
@@ -28,7 +28,7 @@ margin-bottom: 8px;
 }
 
 
-.conseil-onglet ul li a {
+.conseil-onglet > ul li a {
   display: inline-block;
   padding: 16px 24px;
   flex:1;
