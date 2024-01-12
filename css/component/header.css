@@ -60,13 +60,19 @@
 }
 
 .header-accroche{
-  margin-top: 120px;
+  position: absolute;
+  top: 375px;
+  right: 0px;
+  max-width: 600px;
+
 }
 .header-accroche p span{
   padding:8px;
   background: linear-gradient(45deg,#AF9140 0%,#AF9140 100%);
   color:white;
-  line-height: 1.6;
+  line-height: 1.9;
   font-size: 32px;
+  font-weight: 300;
   transition: all 0.3s;
+  margin-top: 4px;
 }

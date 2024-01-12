@@ -1,12 +1,14 @@
 .footer {
   background: linear-gradient(#BEAF87 0%, #a09576 100%) ;
   padding: 50px 0;
+
 }
 
 .footer-content {
   display: flex;
   justify-content: space-evenly;
   align-items: start;
+  height: 200px;
 }
 
 .footer ul  {
@@ -59,9 +61,13 @@
 .footer-navigation{
   padding: 0 32px;
   border-right: 1px solid white;
+  height:100%;
+
 }
 
 .footer-informations{
   padding: 0 32px;
   border-left: 1px solid white;
+  height:100%;
+
 }
