@@ -1,0 +1,77 @@
+#formulescompletes{
+  background-color: #D9D9D9;
+}
+
+.formules{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap:12px;
+  margin : 50px 0;
+  padding: 20px 0;
+}
+
+.formules-slogan{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.formules-slogan-barre{
+  background-color: #BEAF87;
+  min-width: 30px;
+}
+
+.formules-slogan-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  color: #BEAF87;
+}
+
+.formules-slogan-content p{
+  font-size: 24px;
+  font-weight: bolder;
+  width : 150px;
+  padding: 40px;
+}
+
+.formules-slogan-content i{
+  font-size: 50px;
+}
+
+.formule-circle{
+  background-color: #BEAF87;
+  min-width: 25px;
+  min-height: 25px;
+  border-radius: 50%;
+}
+
+
+.formule-explain{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  border-radius: 4px;
+  overflow: hidden;
+
+
+}
+
+.formule-explain-content{
+
+  padding: 0px 10px;
+  color: #BEAF87;
+}
+
+.formule-explain-content p{
+  font-size: 18px;
+  font-weight: bolder;
+  width :300px;
+  padding: 30px 20px;
+
+}
