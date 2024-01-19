@@ -30,6 +30,7 @@ h3{
 
 body{
   background-color: #BEAF87;
+  overflow-x: hidden;
 }
 
 .offre-header{
@@ -358,4 +359,38 @@ background-color: white;
 
 .activeinline{
   display:inline!important;
+}
+
+.activeli {
+  background-color: red;
+}
+
+.total{
+  position:absolute;
+  width:0vw;
+  height: 100vh;
+  transform: translateX(0%);
+  z-index: 5;
+  background-color: #BEAF87;
+}
+
+.movetotal{
+  animation: 1.5s moveSlide;
+}
+
+@keyframes moveSlide {
+  0%{
+    width:0vw;
+    transform: translateX(0%);
+  }
+  50%{
+    width:100vw;
+    transform: translateX(0%);
+  }
+  100%{
+    width:100vw;
+    transform: translateX(100%);
+  }
+
+
 }
