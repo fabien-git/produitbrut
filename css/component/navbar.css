@@ -1,24 +1,29 @@
 .navbar{
   display: flex;
-  width: 100%;
   position :fixed;
+  width:100%;
+  justify-content: center;
   top:0;
+
   overflow: hidden;
   justify-content: center;
   z-index: 3;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   animation-name: slideBottom;
   animation-duration: 1s;
   animation-iteration-count: 1; /* Utilisez 1 si vous souhaitez que l'animation ne se répète qu'une fois */
   animation-fill-mode: forwards;
-
+  background-color:#AF9140 ;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+   /*animation: grow 0.5s linear forwards;*/
+  /*animation-delay: 2s;*/
 }
 
 .navbar ul {
-  background-color: #AF9140;
+  background-color:  #AF9140;
   display: flex;
   justify-content: center;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  /*box-shadow: 0 10px 30px rgba(0,0,0,0.3);*/
 }
 
 
