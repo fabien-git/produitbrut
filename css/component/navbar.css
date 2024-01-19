@@ -26,6 +26,15 @@
   /*box-shadow: 0 10px 30px rgba(0,0,0,0.3);*/
 }
 
+#social{
+  position: fixed;
+  right: 50px;
+  top:-8px;
+}
+
+#social ul li a i{
+  font-size: 32px;
+}
 
 
 .navbar ul li{

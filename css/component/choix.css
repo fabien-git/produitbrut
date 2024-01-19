@@ -50,8 +50,8 @@
   z-index:2;
 }
 
-.choix-argument-left div{
-  flex-grow: 1;
+.choix-argument-left > div{
+  flex-grow: 5;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,7 +62,7 @@
 .choix-argument-left div p{
   padding: 48px 36px;
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 400;
   color: black;
   margin-bottom: 16px;
 
@@ -74,10 +74,11 @@
   transition: all 0.3s;
   z-index: 0;
   overflow: hidden;
+  flex-grow: 1;
 }
 
 .choix-argument-left .button a{
-  padding: 24px 16px;
+  padding: 0px 16px;
   font-size: 16px;
   font-weight: bolder;
   color: white;
@@ -125,7 +126,7 @@
 .choix-argument-right p:nth-child(1) {
   background-color: #AF9140;
   font-size: 24px;
-  font-weight: bolder;
+  font-weight: 300;
   color: white;
   text-align: center;
   padding: 16px;
@@ -135,7 +136,7 @@
 .choix-argument-right p:nth-child(2) {
   background-color: white;
   font-size: 16px;
-  font-weight: regular;
+  font-weight: 300;
   color: black;
   padding: 48px;
   flex-grow: 1;

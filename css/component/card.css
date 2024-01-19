@@ -75,6 +75,7 @@
 
 .choix-content p {
   position: relative;
+  font-weight: 400;
   transform: translateX(-600px);
   transition:0.5s all 0.3s;
 }
