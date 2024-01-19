@@ -112,8 +112,8 @@
   .societe{
     width: 100%;
     background-color: rgba(255,255,255,0.1);
-    border: 1px solid grey;
-    padding: 0;
+    padding-bottom: 42px;
+    border:none;
   }
 
   .form-contact{
@@ -170,6 +170,63 @@
   }
   .choix-argument-left{
     display: none;
+  }
+
+  .formules{
+    flex-direction: column!important;
+    width: 80%;
+    margin:0 auto;
+  }
+  .formules-slogan{
+    width: 100%;
+  }
+  .formules-explain-content{
+    width: 80%!important;
+  }
+  .content-circle{
+    display:none;
+  }
+  .footer-content{
+    flex-direction: column;
+    height:100%;
+    align-items: center;
+
+  }
+
+  .footer-navigation{
+    width:100%;
+    text-align: center;
+    border-right: none;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+  }
+  .footer-follow{
+    width:100%;
+    padding: 20px 0;
+    border-bottom: 1px solid white;
+  }
+
+  .footer-informations{
+    width:100%;
+    border-left: none;
+    padding-top: 20px;
+    text-align: center;
+
+  }
+
+  .container.flex{
+    flex-direction: column;
+  }
+
+  .container.flex .center{
+    width: 80%!important;
+  }
+  .securite-flex-content{
+    width: 80%!important;
+  }
+
+  .offre-onglet ul{
+    margin-top:0;
   }
 }
 
