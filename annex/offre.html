@@ -8,7 +8,7 @@
    <title>Produit Brut</title>
 </head>
 <body>
-  <div class="total"></div>
+
   <div class="navbar">
     <ul>
       <li><a href="../#accueil">Accueil</a></li>
@@ -18,16 +18,18 @@
       <li><a href="../#realisation">Réalisations</a></li>
       <li><a href="../#contact">Contact</a></li>
     </ul>
-    <div id="social">
-      <ul>
-        <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
-        <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
-        <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
-        <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
 
-      </ul>
+  </div>
 
-    </div>
+  <div id="social" class="shadow-classic">
+    <ul>
+      <li><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+      <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+      <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+      <li><a href=""><i class="fa-brands fa-tiktok"></i></a></li>
+
+    </ul>
+
   </div>
 
   <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
@@ -44,6 +46,7 @@
   </div>
   <!---->
   <div class="offre-header">
+      <!--
     <div class="offre-onglet">
       <ul>
         <li class="activeli"><a href="">ACHAT</a></li>
@@ -51,10 +54,14 @@
         <li><a href="">RENOVATION</a></li>
       </ul>
     </div>
+    -->
     <div class="container">
-      <h2><span>ACHAT</span></h2>
-      <h2><span>VENDRE</span></h2>
-      <h2><span>RENOVATION</span></h2>
+      <select id="monselect">
+        <option value="achat">ACHAT</option>
+        <option value="vendre" selected>VENDRE</option>
+        <option value="renovation">RENOVATION</option>
+      </select>
+
     </div>
 
   </div>
@@ -66,6 +73,11 @@
         <h3>1. Offre : Sécurité avant d’achetez</h3>
     </div>
     <div class="securite-flex">
+      <div class="bonus">
+        <h2 >NOS AVANTAGES</h2>
+         <p ><span> Gains de temps - Economie d’argent- Partenaire fiable - Sécurité</span></p>
+
+      </div>
       <div class="container flex">
         <div class="center">
           <p >Obtenez une analyse approfondie technique
@@ -80,6 +92,7 @@
         avant toutes les qualités de votre bien immobilier,
          pour une transaction rapide et réussie.
      </p>
+
         </div>
         <div class="content-circle">
           <div class="formule-circle"></div>
@@ -97,9 +110,13 @@
           <p>>>  Remise d’un rapport technique</p>
           <p>>>  Remise d’un chiffrage des travaux sous forme
             de devis valable pour les banques</p>
+
         </div>
+
       </div>
+
     </div>
+>
   </section>
     <!--FIN SECTION OFFRE SECURITE-->
 
@@ -144,9 +161,11 @@
       <!--SECTION OFFRE SERENITE-->
     <section class="offre-serenite">
       <div class="container">
-        <h3>2 – offre complète sérénité</h3>
+        <h3 >2 – offre complète sérénité</h3>
+        <h2 ><span class="shadow-classic">Nos avantages</span></h2>
+      <p id="avantages" ><span class="shadow-classic">Gains de temps - Economie d’argent - Partenaire fiable - Sécurité</span></p>
 
-      <div class="offre-serenite-content">
+      <div class="offre-serenite-content shadow-classic">
         <p><span>></span> Mise à disposition des différents partenaires si besoins (courtier en prêt et
           assurances de prêt, banquier, diagnosticien, conseillé en patrimoine, assureur,
            agent immobilier, architecte)</p>
@@ -159,8 +178,7 @@
         <p><span>></span> Accueil et lancement des différentes entreprises sur le chantier</p>
 
       </div>
-      <h2><span>Les avantages</span></h2>
-      <p id="avantages"><span>Gains de temps - Economie d’argent - Partenaire fiable - Sécurité</span></p>
+
     </div>
     </section>
       <!--SECTION OFFRE SERENITE-->

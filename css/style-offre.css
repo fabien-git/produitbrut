@@ -1,4 +1,5 @@
 @import url(component/navbar.css);
+@import url(component/shadow.css);
 @import url(component/button.css);
 @import url(component/formules.css);
 @import url(component/footer.css);
@@ -40,7 +41,17 @@ body{
   background-repeat: repeat-x;
   background-position: center;
   margin-bottom: 30px;
+  animation: 60s alternate infinite slidemove;
 
+}
+
+@keyframes slidemove{
+  from{
+    background-position: 0%;
+  }
+  to{
+    background-position: 50%;
+  }
 }
 
 .offre-header .container h2 {
@@ -57,17 +68,33 @@ body{
  padding: 8px 24px;
 }
 
+#monselect{
+  margin-top: 150px;;
+  background-color: #BEAF87;
+  color: white;
+  border: 1px solid white;
+  font-size: 36px;
+  font-weight: bolder;
+  padding: 8px 24px;
+  transition: 0.6s all;
+  cursor: pointer;
+
+}
+
+#monselect:hover{
+  background-color: white;
+  color: #BEAF87;
+  border: 1px solid #BEAF87;
+}
+
+
 .securite{
   position: relative;
   border-top: 1px solid white;
   padding-top: 30px;
 }
 
-.securite-flex{
-  position: relative;
-background-color: white;
 
-}
 
 .securite-flex::before{
   content:'';
@@ -97,11 +124,14 @@ background-color: white;
   gap :32px;
   justify-content: center;
 
+
+
 }
 
 .container.flex .center{
-  display: flex;
-  align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
   color: #BEAF87;
   padding : 16px;
   border: 2px solid #BEAF87;
@@ -109,6 +139,8 @@ background-color: white;
   width : 35%;
   transition: 0.3s all;
   background-color: white;
+  gap :16px;
+
 
 }
 
@@ -156,8 +188,11 @@ background-color: white;
 }
 
 .securite-flex {
+  position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+
   gap: 16px;
   background-color: white;
   padding: 50px 0;
@@ -311,6 +346,8 @@ background-color: white;
   width: 70%;
   background-color: white;
   padding: 64px 32px;
+  border-radius: 4px;
+  margin-bottom: 100px;
 }
 
 
@@ -343,15 +380,19 @@ background-color: white;
 #avantages {
   margin-top: 32px;
   text-align: center;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+   border-radius: 4px;
 }
 
 #avantages span{
-  font-weight: 200;
-  color:white;
+  font-weight: 300;
+  color: #BEAF87;
+  background-color: white;
   padding:8px 64px;
   font-size: 32px;
   text-decoration: underline;
+  border-radius: 4px;
+  z-index: 5;
 }
 
 .active{
@@ -394,4 +435,36 @@ background-color: white;
   }
 
 
+}
+
+.bonus{
+
+  color: black;
+  text-align: center;
+  width:100%;
+  margin: 32px auto;
+  border-top: 2px solid #BEAF87;
+  border-bottom: 2px solid #BEAF87;
+  padding: 0px 0px;
+  background-color: white;
+  z-index: 2;
+
+
+}
+
+.bonus h2  {
+  font-size: 28px;
+  font-weight: 900;
+  background-color: #BEAF87;
+  color: white;
+  display: block!important;
+  margin-bottom: 16px;
+
+}
+
+.bonus p span {
+  color: #BEAF87;
+  display: block!important;
+  font-size: 24px;
+  font-weight: 900;
 }

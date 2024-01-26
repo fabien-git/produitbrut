@@ -7,7 +7,7 @@
   height: 100vh;
   background-color: #AF9140;
   top:0;
-  z-index: 6;
+  z-index: 12;
   justify-content: center;
   align-items: center;
   transition: all 0.3sec;

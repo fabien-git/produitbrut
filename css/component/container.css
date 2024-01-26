@@ -227,6 +227,23 @@
 
   .offre-onglet ul{
     margin-top:0;
+    flex-direction: column;
+    text-align: center;
+
+  }
+
+  .offre-onglet ul li{
+    border-bottom: 1px solid white;
+
+  }
+
+  #social{
+    top:10px;
+  }
+
+  #social ul li a i{
+    font-size: 24px;
+    padding: 8px ;
   }
 }
 
