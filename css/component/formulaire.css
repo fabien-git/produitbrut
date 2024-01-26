@@ -57,19 +57,43 @@
 
 }
 
+.societe-localisation-adresse p{
+ color:#AF9140;
+  font-size: 16px;
+  font-weight:400;
+  background-color: white;
+  text-align: left;
+  border: 1px solid #AF9140;
+  border-left: 8px solid #AF9140;
+  padding: 8px 16px;
+
+}
+
+.societe-localisation-adresse p strong{
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+
 
 
 .societe-presentation p{
   width:90%;
   text-justify: auto;
   background-color: #BEAF87;
+  border-left: 8px solid white;
+  padding: 8px 16px;
+
 }
+
+
 
 
 .societe-presentation p span{
   font-size: 16px;
-  font-weight:regular;
+  font-weight:300;
   color:white;
+
 }
 
 
