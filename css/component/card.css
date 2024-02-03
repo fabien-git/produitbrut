@@ -332,6 +332,7 @@ color: #4B4B4B;
   display: flex;
   justify-content: space-between;
   padding :16px;
+  margin-bottom: 50px;
   flex-grow: 1;
  }
 
@@ -373,4 +374,10 @@ color: #4B4B4B;
  .card-profil-text{
   flex:1;
   padding: 0 24px;
+
+ }
+
+ .card-profil-text p{
+
+  text-overflow: ellipsis;
  }
