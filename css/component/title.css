@@ -43,16 +43,16 @@
   opacity: 0.5;
 }
 
-.title h2 #grey{
+.title h2 .grey{
   color: #747474;
 }
 
-.title h2 #doree{
+.title h2 .doree{
   color: white;
   background-color:#AF9140 ;
 }
 
-#gold{
+.gold{
   background-color: #BEAF87;
   color: white;
 }
